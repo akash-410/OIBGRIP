@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ECF0F1;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 5px solid #000;
+}
+#main {
+    background: #15c7c7;
+    padding-left: 10px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+#title {
+       text-align: center;
+       font-size: 3vw;
+       color: #041d35;
+       font-weight: bold;
+       text-shadow: 3px 3px 6px #c1e4e7;
+       text-decoration: underline;
+       margin-top: 40px;
+       margin-bottom: 50px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#img-caption {
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#Tribute-Info {
+    background: #8c8ce3;
+    color: white;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+#KK-Life:hover {
+    color: #ecd030;
+}
+
+@media (max-width: 600px){
+    #image {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        border: 5px solid #000;
+    }
+    #main {
+        background: #15c7c7;
+        padding-left: 10px;
+        display: inline-block;
+        line-height: 20px;
+    }
+    #title {
+        text-align: center;
+        font-size: 16px;
+        color: #06d4f4;
+        font-weight: bold;
+        text-shadow: 3px 3px 6px #c1e4e7;
+        text-decoration: underline;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }  
+ #img-caption {
+    text-align: center;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#Tribute-Info {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+#KK-Life:hover {
+    color: #ecd030;
+}
+
+
+}
